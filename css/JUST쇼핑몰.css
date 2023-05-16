@@ -1,0 +1,88 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #333;}
+ul, li{list-style: none;}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+.over-flow-hidden{
+    overflow: hidden;
+}
+
+.h-100{
+    height: 100px;
+}
+.h-200{
+    height: 200px;
+}
+.h-300{
+    height: 300px;
+}
+
+#gnb{
+    padding-right: 2em;
+}
+.gnba1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.gnbli1{
+    padding: 10px 0;
+    width: 150px;
+    text-align: center;
+}
+.gnbul2{
+    width: 100%;
+    left: 0;
+    top: 100%;
+    text-align: center;
+    height: 0;
+    transition: 0.5s;
+    overflow: hidden;
+}
+#gnb:hover .gnbul2{
+    height: calc(100%*3);
+    background-color: rgb(255, 255, 255);
+}
+.gnbli2:hover{
+    background-color: rgb(240, 191, 191);
+}
+.gnbli2:hover>a{
+    color: white;
+}
+.gnbli1:hover{
+    background-color: rgb(246, 41, 109);
+}
+.gnbli1:hover>a{
+    color: white;
+}
+.gnbli2{
+    line-height: 3em;
+}

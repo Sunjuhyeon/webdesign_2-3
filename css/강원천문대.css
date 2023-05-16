@@ -1,0 +1,91 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: #333;}
+ul, li{list-style: none;}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+/* d-block인라인태그 처리할 때 좋음 */
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+
+.over-flow-hidden{
+    overflow: hidden;
+}
+.mx-auto{
+    margin: 0 auto;
+}
+
+.h-100{
+    height: 100px;
+}
+.h-200{
+    height: 200px;
+}
+.h-300{
+    height: 300px;
+}
+
+
+#gnb{
+    margin-right: 3em;
+}
+
+.gnbli1{
+    padding: 10px 30px;
+}
+.gnba1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.gnbul2{
+    height: 0;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.gnbli1:hover>.gnbul2{
+    height: 140px;
+    background-color: white;
+}
+.gnbli1:hover{
+    background-color: navy;
+}
+.gnbli1:hover>a{
+    color: white;
+}
+.gnbli2:hover{
+    background-color: rgb(197, 201, 241);
+}
+
+.gnbul2{
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 100%;
+}
+.gnbli2{
+    line-height: 3em;
+}
